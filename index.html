@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-container">
+        <header class="profile-header">
+            <div class="profile-avatar">
+                <img src="https://ui-avatars.com/api/?name=John+Doe&background=random&size=150" alt="John Doe">
+            </div>
+            <div class="profile-info">
+                <h1>John Doe</h1>
+                <p class="role">Senior Software Engineer</p>
+                <p class="bio">Passionate about creating beautiful, dynamic, and responsive web applications. Constantly learning and exploring new technologies.</p>
+                <div class="actions">
+                    <button class="btn btn-primary" id="editProfileBtn">Edit Profile</button>
+                    <button class="btn btn-secondary">Message</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="profile-stats">
+            <div class="stat">
+                <h3>152</h3>
+                <p>Projects</p>
+            </div>
+            <div class="stat">
+                <h3>4.8k</h3>
+                <p>Followers</p>
+            </div>
+            <div class="stat">
+                <h3>324</h3>
+                <p>Following</p>
+            </div>
+        </section>
+
+        <section class="profile-content">
+            <h2>Recent Activity</h2>
+            <ul class="activity-list">
+                <li>
+                    <span class="activity-icon">🚀</span>
+                    <div class="activity-details">
+                        <p><strong>Deployed new feature</strong> to production environment.</p>
+                        <span class="time">2 hours ago</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="activity-icon">✨</span>
+                    <div class="activity-details">
+                        <p><strong>Updated design system</strong> with new glassmorphism components.</p>
+                        <span class="time">1 day ago</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="activity-icon">🐛</span>
+                    <div class="activity-details">
+                        <p><strong>Fixed a bug</strong> in the authentication flow.</p>
+                        <span class="time">3 days ago</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
